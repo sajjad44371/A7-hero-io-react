@@ -58,7 +58,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
         <div className="navbar-end">
-          <div className="bg-gradient-to-r from-[#632ee3] to-[#9f62f2] rounded-md text-white">
+          <div className="bg-gradient-to-r from-[#632ee3] to-[#9f62f2] rounded-sm text-white">
             <a
               href="https://github.com/sajjad44371"
               target="_blank"
