@@ -8,6 +8,7 @@ import { useLocation } from "react-router";
 
 const Root = () => {
   const location = useLocation();
+
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {

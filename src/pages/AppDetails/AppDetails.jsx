@@ -47,12 +47,16 @@ const AppDetails = () => {
 
   return (
     <div className="bg-[#f2f2f2]">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto px-5 lg:px-0">
         {app ? (
           <div>
-            <div className="flex justify-between items-start pt-[80px] pb-[40px] gap-10 border border-transparent border-b-gray-400">
+            <div className="flex flex-col lg:flex-row justify-between items-start pt-[80px] pb-[40px] gap-10 border border-transparent border-b-gray-400">
               <div className="flex-1/3 bg-white w-[350px] h-[350px] flex justify-center items-center">
-                <img src={app.image} alt="" className="w-[300px]" />
+                <img
+                  src={app.image}
+                  alt=""
+                  className="w-[250px] md:w-[300px]"
+                />
               </div>
               <div className="flex-2/3 ">
                 <div className="border border-transparent pb-[30px] border-b-gray-400">
@@ -67,24 +71,30 @@ const AppDetails = () => {
                   </h3>
                 </div>
                 <div className="flex justify-start items-center gap-7 my-10">
-                  <div className="pr-10">
-                    <img src={downloadImg} alt="" className="w-10" />
-                    <p className="text-[#001931] my-1">Downloads</p>
-                    <h4 className="text-[#001931] text-4xl font-extrabold">
+                  <div className="pr-4 lg:pr-10">
+                    <img src={downloadImg} alt="" className="w-8 lg:w-10" />
+                    <p className="text-[#001931] my-1 text-sm sm:text-[16px]">
+                      Downloads
+                    </p>
+                    <h4 className="text-[#001931] text-2xl lg:text-4xl font-extrabold">
                       {downloads}
                     </h4>
                   </div>
-                  <div className="pr-10">
-                    <img src={ratingImg} alt="" className="w-10" />
-                    <p className="text-[#001931] my-1">Average Ratings</p>
-                    <h4 className="text-[#001931] text-4xl font-extrabold">
+                  <div className="pr-4 lg:pr-10">
+                    <img src={ratingImg} alt="" className="w-8 lg:w-10" />
+                    <p className="text-[#001931] my-1 text-sm sm:text-[16px]">
+                      Average Ratings
+                    </p>
+                    <h4 className="text-[#001931] text-2xl lg:text-4xl font-extrabold">
                       {app.ratingAvg}
                     </h4>
                   </div>
-                  <div className="pr-10">
-                    <img src={reviewImg} alt="" className="w-10" />
-                    <p className="text-[#001931] my-1">Total Reviews</p>
-                    <h4 className="text-[#001931] text-4xl font-extrabold">
+                  <div className="pr-4 lg:pr-10">
+                    <img src={reviewImg} alt="" className="w-8 lg:w-10" />
+                    <p className="text-[#001931] my-1 text-sm sm:text-[16px]">
+                      Total Reviews
+                    </p>
+                    <h4 className="text-[#001931] text-2xl lg:text-4xl font-extrabold">
                       {reviews}
                     </h4>
                   </div>

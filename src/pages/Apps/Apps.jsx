@@ -36,9 +36,9 @@ const Apps = () => {
 
   return (
     <div className="bg-[#f2f2f2] min-h-screen">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto px-5 lg:px-0">
         <div className="pt-[80px] pb-10 text-center">
-          <h2 className="text-5xl font-bold text-[#001931] mb-3">
+          <h2 className="text-4xl md:text-5xl font-bold text-[#001931] mb-3">
             Our All Applications
           </h2>
           <p className="text-[#627382] text-xl">
@@ -47,7 +47,7 @@ const Apps = () => {
         </div>
         <div className="flex justify-between items-center">
           <div>
-            <h3 className="text-2xl font-semibold">
+            <h3 className="text-xl md:text-2xl font-semibold">
               ({searchedApps.length}) Apps Found
             </h3>
           </div>
@@ -75,6 +75,7 @@ const Apps = () => {
                 type="search"
                 required
                 placeholder="Search Apps"
+                className="w-[100px] md:w-[200px]"
               />
             </label>
           </div>

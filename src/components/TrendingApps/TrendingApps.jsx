@@ -11,9 +11,9 @@ const TrendingApps = () => {
 
   return (
     <div className="bg-[#f2f2f2]">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto px-5 lg:px-0">
         <div className="pt-[80px] pb-10 text-center">
-          <h2 className="text-5xl font-bold text-[#001931] mb-3">
+          <h2 className="text-4xl md:text-5xl font-bold text-[#001931] mb-3">
             Trending Apps
           </h2>
           <p className="text-[#627382] text-xl">
