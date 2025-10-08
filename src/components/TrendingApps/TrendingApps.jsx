@@ -1,6 +1,7 @@
 import React from "react";
 import useDataFetch from "../../Hooks/useDataFetch";
 import AppCard from "../AppCard/AppCard";
+import { Link } from "react-router";
 
 const TrendingApps = () => {
   const [appsData] = useDataFetch();
@@ -19,10 +20,18 @@ const TrendingApps = () => {
             Explore All Trending Apps on the Market developed by us
           </p>
         </div>
-        <div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
           {featuredApps.map((app) => (
             <AppCard key={app.id} app={app}></AppCard>
           ))}
+        </div>
+        <div className="pt-[40px] pb-[80px] flex justify-center">
+          <Link
+            to="/apps"
+            className="bg-gradient-to-r from-[#632ee3] to-[#9f62f2] rounded-sm text-white py-3 px-4"
+          >
+            Show All
+          </Link>
         </div>
       </div>
     </div>

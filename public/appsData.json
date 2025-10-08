@@ -8,7 +8,14 @@
     "size": 85,
     "reviews": 350000000,
     "ratingAvg": 4.7,
-    "downloads": 5000000000
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2500000 },
+      { "name": "2 star", "count": 4000000 },
+      { "name": "3 star", "count": 8000000 },
+      { "name": "4 star", "count": 30000000 },
+      { "name": "5 star", "count": 305000000 }
+    ]
   },
   {
     "image": "https://i.ibb.co.com/4wNtnh2y/m011t0447-h-social-sign-18sep22.jpg",
@@ -19,7 +26,14 @@
     "size": 120,
     "reviews": 450000000,
     "ratingAvg": 4.6,
-    "downloads": 10000000000
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 8000000 },
+      { "name": "2 star", "count": 10000000 },
+      { "name": "3 star", "count": 15000000 },
+      { "name": "4 star", "count": 50000000 },
+      { "name": "5 star", "count": 365000000 }
+    ]
   },
   {
     "image": "https://i.ibb.co.com/L2Dv1mg/ins.jpg",
@@ -30,7 +44,14 @@
     "size": 100,
     "reviews": 250000000,
     "ratingAvg": 4.5,
-    "downloads": 5000000000
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 4000000 },
+      { "name": "3 star", "count": 8000000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 180000000 }
+    ]
   },
   {
     "image": "https://i.ibb.co.com/TMCsJJCt/tiktok.png",
@@ -41,7 +62,14 @@
     "size": 95,
     "reviews": 220000000,
     "ratingAvg": 4.6,
-    "downloads": 3000000000
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 6000000 },
+      { "name": "2 star", "count": 8000000 },
+      { "name": "3 star", "count": 10000000 },
+      { "name": "4 star", "count": 40000000 },
+      { "name": "5 star", "count": 246000000 }
+    ]
   },
   {
     "image": "https://i.ibb.co.com/hJKk1Dzq/Netflix.png",
@@ -52,7 +80,14 @@
     "size": 150,
     "reviews": 310000000,
     "ratingAvg": 4.5,
-    "downloads": 2000000000
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 8000000 },
+      { "name": "3 star", "count": 15000000 },
+      { "name": "4 star", "count": 35000000 },
+      { "name": "5 star", "count": 249000000 }
+    ]
   },
   {
     "image": "https://i.ibb.co.com/CpK0w8w2/fb.png",
@@ -63,7 +98,14 @@
     "size": 110,
     "reviews": 420000000,
     "ratingAvg": 4.4,
-    "downloads": 5000000000
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 8000000 },
+      { "name": "2 star", "count": 9000000 },
+      { "name": "3 star", "count": 50000000 },
+      { "name": "4 star", "count": 80000000 },
+      { "name": "5 star", "count": 295000000 }
+    ]
   },
   {
     "image": "https://i.ibb.co.com/3mLfmdWR/snp.png",
@@ -74,7 +116,14 @@
     "size": 95,
     "reviews": 200000000,
     "ratingAvg": 4.3,
-    "downloads": 1000000000
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 6000000 },
+      { "name": "3 star", "count": 18000000 },
+      { "name": "4 star", "count": 20000000 },
+      { "name": "5 star", "count": 286000000 }
+    ]
   },
   {
     "image": "https://i.ibb.co.com/jkpjZR0R/telegram.png",
@@ -85,7 +134,14 @@
     "size": 70,
     "reviews": 180000000,
     "ratingAvg": 4.8,
-    "downloads": 1000000000
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 7000000 },
+      { "name": "2 star", "count": 9000000 },
+      { "name": "3 star", "count": 30000000 },
+      { "name": "4 star", "count": 50000000 },
+      { "name": "5 star", "count": 216000000 }
+    ]
   },
   {
     "image": "https://i.ibb.co.com/kg1XvTBD/gmap.jpg",
@@ -96,7 +152,14 @@
     "size": 95,
     "reviews": 280000000,
     "ratingAvg": 4.6,
-    "downloads": 10000000000
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 8000000 },
+      { "name": "3 star", "count": 19000000 },
+      { "name": "4 star", "count": 50000000 },
+      { "name": "5 star", "count": 346000000 }
+    ]
   },
   {
     "image": "https://i.ibb.co.com/Lh2DpbZT/sp.jpg",
@@ -107,10 +170,17 @@
     "size": 90,
     "reviews": 310000000,
     "ratingAvg": 4.7,
-    "downloads": 1000000000
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 6000000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 45000000 },
+      { "name": "4 star", "count": 80000000 },
+      { "name": "5 star", "count": 446000000 }
+    ]
   },
   {
-    "image": "REAL_IMAGE_LINK_HERE",
+    "image": "https://i.ibb.co.com/8nC7cvPm/zoom.png",
     "title": "Zoom",
     "companyName": "Zoom Video Communications, Inc.",
     "id": 11,
@@ -118,10 +188,17 @@
     "size": 80,
     "reviews": 170000000,
     "ratingAvg": 4.5,
-    "downloads": 1000000000
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 6000000 },
+      { "name": "2 star", "count": 7000000 },
+      { "name": "3 star", "count": 15000000 },
+      { "name": "4 star", "count": 40000000 },
+      { "name": "5 star", "count": 238000000 }
+    ]
   },
   {
-    "image": "REAL_IMAGE_LINK_HERE",
+    "image": "https://i.ibb.co.com/TqHjGz4Q/amazon.png",
     "title": "Amazon Shopping",
     "companyName": "Amazon Mobile LLC",
     "id": 12,
@@ -129,10 +206,17 @@
     "size": 100,
     "reviews": 240000000,
     "ratingAvg": 4.6,
-    "downloads": 500000000
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 9000000 },
+      { "name": "3 star", "count": 10000000 },
+      { "name": "4 star", "count": 60000000 },
+      { "name": "5 star", "count": 246000000 }
+    ]
   },
   {
-    "image": "REAL_IMAGE_LINK_HERE",
+    "image": "https://i.ibb.co.com/G4R3h9xT/in.png",
     "title": "LinkedIn",
     "companyName": "LinkedIn Corporation",
     "id": 13,
@@ -140,10 +224,17 @@
     "size": 95,
     "reviews": 150000000,
     "ratingAvg": 4.4,
-    "downloads": 1000000000
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 6000000 },
+      { "name": "3 star", "count": 70000000 },
+      { "name": "4 star", "count": 90000000 },
+      { "name": "5 star", "count": 346000000 }
+    ]
   },
   {
-    "image": "REAL_IMAGE_LINK_HERE",
+    "image": "https://i.ibb.co.com/QFrNb1yg/x.png",
     "title": "Twitter",
     "companyName": "Twitter, Inc.",
     "id": 14,
@@ -151,10 +242,17 @@
     "size": 85,
     "reviews": 210000000,
     "ratingAvg": 4.3,
-    "downloads": 1000000000
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 6000000 },
+      { "name": "3 star", "count": 25000000 },
+      { "name": "4 star", "count": 65000000 },
+      { "name": "5 star", "count": 186000000 }
+    ]
   },
   {
-    "image": "REAL_IMAGE_LINK_HERE",
+    "image": "https://i.ibb.co.com/v0H13Yv/pin.png",
     "title": "Pinterest",
     "companyName": "Pinterest, Inc.",
     "id": 15,
@@ -162,10 +260,17 @@
     "size": 90,
     "reviews": 190000000,
     "ratingAvg": 4.6,
-    "downloads": 1000000000
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 5000000 },
+      { "name": "3 star", "count": 60000000 },
+      { "name": "4 star", "count": 89000000 },
+      { "name": "5 star", "count": 236000000 }
+    ]
   },
   {
-    "image": "REAL_IMAGE_LINK_HERE",
+    "image": "https://i.ibb.co.com/sdHG7dMb/uber.png",
     "title": "Uber",
     "companyName": "Uber Technologies, Inc.",
     "id": 16,
@@ -173,10 +278,17 @@
     "size": 95,
     "reviews": 170000000,
     "ratingAvg": 4.4,
-    "downloads": 1000000000
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 5500000 },
+      { "name": "2 star", "count": 7500000 },
+      { "name": "3 star", "count": 19000000 },
+      { "name": "4 star", "count": 48000000 },
+      { "name": "5 star", "count": 256000000 }
+    ]
   },
   {
-    "image": "REAL_IMAGE_LINK_HERE",
+    "image": "https://i.ibb.co.com/G31wm998/airbnb.png",
     "title": "Airbnb",
     "companyName": "Airbnb, Inc.",
     "id": 17,
@@ -184,10 +296,17 @@
     "size": 85,
     "reviews": 160000000,
     "ratingAvg": 4.7,
-    "downloads": 500000000
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 4500000 },
+      { "name": "2 star", "count": 8600000 },
+      { "name": "3 star", "count": 75000000 },
+      { "name": "4 star", "count": 87000000 },
+      { "name": "5 star", "count": 276000000 }
+    ]
   },
   {
-    "image": "REAL_IMAGE_LINK_HERE",
+    "image": "https://i.ibb.co.com/hFhSRXz8/discord.png",
     "title": "Discord",
     "companyName": "Discord Inc.",
     "id": 18,
@@ -195,10 +314,17 @@
     "size": 80,
     "reviews": 140000000,
     "ratingAvg": 4.8,
-    "downloads": 500000000
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 2300000 },
+      { "name": "2 star", "count": 6500000 },
+      { "name": "3 star", "count": 67000000 },
+      { "name": "4 star", "count": 35000000 },
+      { "name": "5 star", "count": 346000000 }
+    ]
   },
   {
-    "image": "REAL_IMAGE_LINK_HERE",
+    "image": "https://i.ibb.co.com/XZLK5wh1/ms.png",
     "title": "Microsoft Teams",
     "companyName": "Microsoft Corporation",
     "id": 19,
@@ -206,10 +332,17 @@
     "size": 120,
     "reviews": 130000000,
     "ratingAvg": 4.4,
-    "downloads": 500000000
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 6000000 },
+      { "name": "2 star", "count": 8000000 },
+      { "name": "3 star", "count": 10000000 },
+      { "name": "4 star", "count": 40000000 },
+      { "name": "5 star", "count": 246000000 }
+    ]
   },
   {
-    "image": "REAL_IMAGE_LINK_HERE",
+    "image": "https://i.ibb.co.com/nsqy6jZy/duo.png",
     "title": "Duolingo",
     "companyName": "Duolingo, Inc.",
     "id": 20,
@@ -217,6 +350,13 @@
     "size": 85,
     "reviews": 150000000,
     "ratingAvg": 4.7,
-    "downloads": 300000000
+    "downloads": 300000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 6000000 },
+      { "name": "3 star", "count": 67000000 },
+      { "name": "4 star", "count": 23000000 },
+      { "name": "5 star", "count": 456000000 }
+    ]
   }
 ]
