@@ -11,7 +11,7 @@ const AppCard = ({ app }) => {
     <Link to={`/details/${app.id}`}>
       <div className="rounded-md bg-white shadow-sm hover:shadow-lg duration-300">
         <div className="p-4">
-          <img src={app.image} alt="" className="w-full h-[270px] rounded-md" />
+          <img src={app.image} alt="" className="w-full h-[250px] rounded-md" />
           <h3 className="text-xl font-medium my-4">{app.title}</h3>
           <div className="flex justify-between items-center">
             <div className="bg-[#F1F5E8] rounded-md">

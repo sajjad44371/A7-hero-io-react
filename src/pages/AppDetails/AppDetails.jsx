@@ -17,6 +17,8 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
+import { addDataToLS } from "../../utility/addToLS";
+
 const AppDetails = () => {
   const params = useParams();
   const id = parseInt(params.id);
@@ -31,12 +33,17 @@ const AppDetails = () => {
 
   const [install, setInstall] = useState(false);
 
-  const handleInstall = () => {
+  const handleInstall = (id) => {
     setInstall(true);
+
+    if (!install) {
+      addDataToLS(id);
+
+      return;
+    }
   };
 
   const chartData = app ? app.ratings : "";
-  console.log(chartData);
 
   return (
     <div className="bg-[#f2f2f2]">
@@ -84,10 +91,10 @@ const AppDetails = () => {
                 </div>
                 <div>
                   <button
-                    onClick={handleInstall}
+                    onClick={() => handleInstall(app.id)}
                     className={`rounded-sm text-white py-3 px-4 bg-[#00D390] ${
                       install
-                        ? "bg-gray-400 cursor-not-allowed"
+                        ? "bg-gray-400 disabled cursor-not-allowed"
                         : "bg-[#00D390] hover:bg-[#00b57d] cursor-pointer"
                     }`}
                   >
