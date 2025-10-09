@@ -50,7 +50,7 @@ const Navbar = () => {
           <Link to="/" className="flex justify-between items-center gap-2">
             <img src={logoImg} alt="logo" className="w-[40px] h-[40px]" />
             <span className="font-bold bg-gradient-to-r from-[#632ee3] to-[#9f62f2] bg-clip-text text-transparent uppercase">
-              Hero.Io
+              AppVibe
             </span>
           </Link>
         </div>
@@ -58,7 +58,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
         <div className="navbar-end">
-          <div className="bg-gradient-to-r from-[#632ee3] to-[#9f62f2] rounded-sm text-white">
+          <div className="bg-gradient-to-r from-[#632ee3] to-[#9f62f2] hover:shadow-xl rounded-sm text-white">
             <a
               href="https://github.com/sajjad44371"
               target="_blank"

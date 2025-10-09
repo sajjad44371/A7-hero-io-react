@@ -1,16 +1,17 @@
-# React + Vite
+### App name: AppVibe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Description: Discover and explore the world’s top apps with AppVibe — your guide to the best in productivity, entertainment, and lifestyle. Find detailed reviews, ratings, and download insights, all in one place.
 
-Currently, two official plugins are available:
+### Technologies:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    React.js — For building interactive user interfaces and component-based architecture.
+    Tailwind CSS — Utility-first CSS framework for responsive, modern designs.
+    DaisyUI — Tailwind CSS component library for fast UI development.
+    React Router DOM — For client-side routing and navigation.
+    React Spinner — For creating loading animations and spinners.
+    JavaScript (ES6+) — Modern JavaScript for logic and interactivity.
+    HTML5 & CSS3 — Structure and styling of the application.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    Vite — Project bundler
+    Git & GitHub — Version control
+    Netlify — Hosting platform

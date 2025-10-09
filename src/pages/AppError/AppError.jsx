@@ -1,6 +1,8 @@
 import React from "react";
 import errorImg from "../../assets/App-Error.png";
 import { Link } from "react-router";
+import { FaArrowLeftLong } from "react-icons/fa6";
+import { FaHome } from "react-icons/fa";
 
 const AppError = () => {
   return (
@@ -15,12 +17,18 @@ const AppError = () => {
           <p className="text-center text-xl font-bold bg-gradient-to-r from-[#632ee3] to-[#9f62f2] bg-clip-text text-transparent mt-5">
             No apps found
           </p>
-          <div className="mt-10">
+          <div className="mt-10 flex justify-center items-center gap-4">
             <Link
               to="/"
-              className="bg-gradient-to-r from-[#632ee3] to-[#9f62f2] rounded-sm text-white py-3 px-4"
+              className="bg-gradient-to-r from-[#632ee3] to-[#9f62f2] rounded-sm text-white py-3 px-4 flex justify-between items-center gap-3"
             >
-              Go Back!
+              <FaArrowLeftLong /> Go Back!
+            </Link>
+            <Link
+              to="/"
+              className="bg-gradient-to-r from-[#632ee3] to-[#9f62f2] rounded-sm text-white py-3 px-4 flex justify-between items-center gap-3"
+            >
+              <FaHome /> Home
             </Link>
           </div>
         </div>
