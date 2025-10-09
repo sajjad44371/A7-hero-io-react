@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="bg-[#001931]">
       <div className="max-w-7xl mx-auto">
         <footer className="footer sm:footer-horizontal p-10 text-white">
-          <div className="w-[300px] flex flex-col">
+          <div className="w-[300px] sm:w-[200px] lg:w-[300px] flex flex-col">
             <div className="flex justify-start items-center gap-3">
               <img src={logo} alt="" className="w-10 slow-spin" />
               <p className="font-bold text-white uppercase">AppVibe</p>
