@@ -51,11 +51,11 @@ const AppDetails = () => {
         {app ? (
           <div>
             <div className="flex flex-col lg:flex-row justify-between items-start pt-[80px] pb-[40px] gap-10 border border-transparent border-b-gray-400">
-              <div className="flex-1/3 bg-white w-[350px] h-[350px] flex justify-center items-center">
+              <div className="flex-1/3 bg-white w-[350px] h-[350px] flex justify-center items-center rounded">
                 <img
                   src={app.image}
                   alt=""
-                  className="w-[250px] md:w-[300px]"
+                  className="w-[250px] md:w-[300px] rounded-md"
                 />
               </div>
               <div className="flex-2/3 ">
